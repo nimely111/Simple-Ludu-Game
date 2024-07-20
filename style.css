@@ -75,5 +75,7 @@ body {
     margin-top: .5rem;
   }
 
-
+  .btn:hover {
+    background-color: #732d91;
+  }
 
