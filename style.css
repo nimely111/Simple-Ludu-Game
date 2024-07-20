@@ -79,3 +79,7 @@ body {
     background-color: #732d91;
   }
 
+  .btn:focus {
+    outline: none;
+    background-color: #5e3370;
+  }
