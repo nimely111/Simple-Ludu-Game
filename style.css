@@ -83,3 +83,8 @@ body {
     outline: none;
     background-color: #5e3370;
   }
+
+  #result{
+    font-size: 1.5rem;
+    margin: 10px;
+  }
