@@ -10,4 +10,8 @@ form.addEventListener('submit', e => {
 const inputValue = parseInt(input.value);
 const randomNum = Math.floor(Math.random() * 6);
 console.log(randomNum);
+
+if(isNaN(inputValue)){
+    alert("Please Enter a valid number between 1 & 6")
+}
 })
