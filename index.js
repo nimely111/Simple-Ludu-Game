@@ -13,5 +13,7 @@ console.log(randomNum);
 
 if(isNaN(inputValue)){
     alert("Please Enter a valid number between 1 & 6")
+}else{
+    
 }
 })
