@@ -43,6 +43,12 @@ body {
     padding: 10px;
 }
 
+.ludu-container::before{
+    content: '';
+    background: blue;
+    padding: 2rem;
+  }
+
 .header{
     padding: 1rem;
   }
