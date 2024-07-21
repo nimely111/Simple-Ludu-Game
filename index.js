@@ -14,6 +14,10 @@ console.log(randomNum);
 if(isNaN(inputValue)){
     alert("Please Enter a valid number between 1 & 6")
 }else{
-    
+    if(inputValue == 1){
+        result.innerHTML = 'You got '+ '🎲';
+        console.log(inputValue, 'You got one');
+          result.style.color = 'blue'
+        }
 }
 })
