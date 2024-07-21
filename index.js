@@ -43,5 +43,6 @@ if(isNaN(inputValue)){
         result.innerHTML = 'You did not roll the dice' + '❌😛😜😝';
         result.style.color = 'red'
     }
+    input.value = ''
 }
 })
