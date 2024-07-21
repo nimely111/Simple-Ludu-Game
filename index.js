@@ -34,6 +34,10 @@ if(isNaN(inputValue)){
             result.innerHTML = 'You got '+ '🎲🎲🎲🎲🎲';
             result.style.color = 'blue'
             console.log(inputValue,'You got five');
-        }
+        }else if(inputValue == 6){
+            result.innerHTML = 'You got ' + '🎲🎲🎲🎲🎲🎲';
+            result.style.color = 'blue'
+        console.log(inputValue,'You got six');
+    }
 }
 })
