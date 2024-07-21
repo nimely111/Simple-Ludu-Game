@@ -18,6 +18,10 @@ if(isNaN(inputValue)){
         result.innerHTML = 'You got '+ '🎲';
         console.log(inputValue, 'You got one');
           result.style.color = 'blue'
+        }else if(inputValue == 2){
+            result.innerHTML = 'You got ' + '🎲🎲';
+            result.style.color = 'blue'
+            console.log(inputValue,'You got two');
         }
 }
 })
