@@ -49,6 +49,13 @@ body {
     padding: 2rem;
   }
 
+  .ludu-container::after{
+    content: '';
+    background: red;
+    padding: 2rem;
+    float: right;
+  }
+
 .header{
     padding: 1rem;
   }
