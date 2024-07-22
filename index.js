@@ -7,7 +7,10 @@ const pauseButton = document.getElementById('pauseButton');
 const wrongEffect = document.getElementById('wrong-effect');
 const winEffect = document.getElementById('win-effect');
 
-
+// Optional: Set the volume of the background, wrong, and win effect audio
+backgroundAudio.volume = 0.1;
+wrongEffect.volume = 0.7;
+winEffect.volume = 0.7;
 
 form.addEventListener('submit', e => {
     // stop form from submiting
