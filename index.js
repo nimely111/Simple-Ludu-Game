@@ -1,6 +1,8 @@
 const form = document.getElementById('form');
 const input = document.getElementById('input');
 const result = document.getElementById('result');
+const backgroundAudio = document.getElementById('backgroundAudio');
+
 
 form.addEventListener('submit', e => {
     // stop form from submiting
