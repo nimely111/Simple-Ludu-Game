@@ -2,6 +2,7 @@ const form = document.getElementById('form');
 const input = document.getElementById('input');
 const result = document.getElementById('result');
 const backgroundAudio = document.getElementById('backgroundAudio');
+const playButton = document.getElementById('playButton');
 
 
 form.addEventListener('submit', e => {
