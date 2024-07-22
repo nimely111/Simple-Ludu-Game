@@ -3,6 +3,7 @@ const input = document.getElementById('input');
 const result = document.getElementById('result');
 const backgroundAudio = document.getElementById('backgroundAudio');
 const playButton = document.getElementById('playButton');
+const pauseButton = document.getElementById('pauseButton');
 
 
 form.addEventListener('submit', e => {
