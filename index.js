@@ -4,6 +4,8 @@ const result = document.getElementById('result');
 const backgroundAudio = document.getElementById('backgroundAudio');
 const playButton = document.getElementById('playButton');
 const pauseButton = document.getElementById('pauseButton');
+const wrongEffect = document.getElementById('wrong-effect');
+
 
 
 form.addEventListener('submit', e => {
