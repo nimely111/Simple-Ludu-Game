@@ -40,7 +40,7 @@ const randomNum = Math.floor(Math.random() * 6) + 1;
 console.log(`Random Number: ${randomNum}`);
 
 
-if(isNaN(inputValue)){
+if(isNaN(inputValue) || randomNum < 1 || randomNum > 6){
     alert("Please Enter a valid number between 1 & 6")
 }else{
     if(inputValue == 1){
