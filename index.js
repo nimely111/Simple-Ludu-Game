@@ -43,8 +43,8 @@ console.log(`Random Number: ${randomNum}`);
 if(isNaN(inputValue) || randomNum < 1 || randomNum > 6){
     alert("Please Enter a valid number between 1 & 6")
 }else{
-    if(inputValue == 1){
-        result.innerHTML = 'You got '+ '🎲';
+    if(inputValue === randomNum){
+        result.innerHTML = `Congratulations! You guessed the correct number ${randomNum} 🎉`;
         console.log(inputValue, 'You got one');
           result.style.color = 'blue'
         }else if(inputValue == 2){
