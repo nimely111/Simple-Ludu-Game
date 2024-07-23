@@ -12,6 +12,10 @@ backgroundAudio.volume = 0.1;
 wrongEffect.volume = 0.7;
 winEffect.volume = 0.7;
 
+playButton.addEventListener('click', () => {
+    backgroundAudio.play();
+});
+
 form.addEventListener('submit', e => {
     // stop form from submiting
     e.preventDefault();
