@@ -20,6 +20,11 @@ pauseButton.addEventListener('click', () => {
     backgroundAudio.pause();
 });
 
+wrongEffect.addEventListener('click', (e) => {
+    wrongEffect.currentTime = 0;
+    wrongEffect.play();
+});
+
 form.addEventListener('submit', e => {
     // stop form from submiting
     e.preventDefault();
