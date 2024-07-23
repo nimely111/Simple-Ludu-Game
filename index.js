@@ -46,7 +46,7 @@ if(isNaN(inputValue) || randomNum < 1 || randomNum > 6){
     if(inputValue === randomNum){
         result.innerHTML = `Congratulations! You guessed the correct number ${randomNum} 🎉`;
         console.log(inputValue, 'You got one');
-          result.style.color = 'blue'
+        result.style.color = 'green';
         }else if(inputValue == 2){
             result.innerHTML = 'You got ' + '🎲🎲';
             result.style.color = 'blue'
