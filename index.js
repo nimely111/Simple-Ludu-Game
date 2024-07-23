@@ -25,6 +25,11 @@ wrongEffect.addEventListener('click', (e) => {
     wrongEffect.play();
 });
 
+winEffect.addEventListener('click', (e) => {
+    winEffect.currentTime = 0;
+    winEffect.play();
+});
+
 form.addEventListener('submit', e => {
     // stop form from submiting
     e.preventDefault();
