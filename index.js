@@ -51,6 +51,7 @@ if(isNaN(inputValue) || randomNum < 1 || randomNum > 6){
         }else{
         result.innerHTML = `Sorry, you guessed ${inputValue}, but the correct number was ${randomNum} 😞`;
         result.style.color = 'red';
+        wrongEffect.play();
     }
     input.value = ''
 }
