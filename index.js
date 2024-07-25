@@ -49,7 +49,7 @@ if(isNaN(inputValue) || randomNum < 1 || randomNum > 6){
         winEffect.play();
         backgroundAudio.pause();
         }else{
-        result.innerHTML = 'You did not roll the dice' + '❌😛😜😝';
+        result.innerHTML = '';
         result.style.color = 'red'
     }
     input.value = ''
