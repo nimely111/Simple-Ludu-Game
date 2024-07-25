@@ -46,6 +46,7 @@ if(isNaN(inputValue) || randomNum < 1 || randomNum > 6){
     if(inputValue === randomNum){
         result.innerHTML = `Congratulations! You guessed the correct number ${randomNum} 🎉`;
         result.style.color = 'green';
+        winEffect.play()
         }else if(inputValue == 2){
             result.innerHTML = 'You got ' + '🎲🎲';
             result.style.color = 'blue'
