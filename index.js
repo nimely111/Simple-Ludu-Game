@@ -47,27 +47,7 @@ if(isNaN(inputValue) || randomNum < 1 || randomNum > 6){
         result.innerHTML = `Congratulations! You guessed the correct number ${randomNum} 🎉`;
         result.style.color = 'green';
         winEffect.play()
-        }else if(inputValue == 2){
-            result.innerHTML = 'You got ' + '🎲🎲';
-            result.style.color = 'blue'
-            console.log(inputValue,'You got two');
-        }else if(inputValue == 3){
-            result.innerHTML = 'You got '+ '🎲🎲🎲';
-            result.style.color = 'blue'
-            console.log(inputValue,'You got three');
-        }else if(inputValue == 4){
-            result.innerHTML = 'You got ' + '🎲🎲🎲🎲';
-            result.style.color = 'blue'
-            console.log(inputValue,'You got four');
-        }else if(inputValue ==5){
-            result.innerHTML = 'You got '+ '🎲🎲🎲🎲🎲';
-            result.style.color = 'blue'
-            console.log(inputValue,'You got five');
-        }else if(inputValue == 6){
-            result.innerHTML = 'You got ' + '🎲🎲🎲🎲🎲🎲';
-            result.style.color = 'blue'
-        console.log(inputValue,'You got six');
-    }else{
+        }else{
         console.log(inputValue,'You did not roll the dice');
         result.innerHTML = 'You did not roll the dice' + '❌😛😜😝';
         result.style.color = 'red'
