@@ -49,7 +49,7 @@ if(isNaN(inputValue) || randomNum < 1 || randomNum > 6){
         winEffect.play();
         backgroundAudio.pause();
         }else{
-        result.innerHTML = '';
+        result.innerHTML = `Sorry, you guessed ${inputValue}, but the correct number was ${randomNum} 😞`;;
         result.style.color = 'red'
     }
     input.value = ''
